@@ -4,12 +4,13 @@ OpenStack服务监控及维护
 
 Stage 1: Shell脚本执行OpenStack命令检测服务
 ------------------------------------------
-- openstack compute service list (nova service-list)::
+- openstack compute service list (nova service-list)
 
-  $ openstack compute service list
+::
 
-  +----+------------------+---------+----------+---------+-------+----------------------------+
-| Id | Binary           | Host    | Zone     | Status  | State | Updated At                 |
+ $ openstack compute service list
+ +----+------------------+---------+----------+---------+-------+----------------------------+
+ | Id | Binary           | Host    | Zone     | Status  | State | Updated At                 |
 +----+------------------+---------+----------+---------+-------+----------------------------+
 |  1 | nova-conductor   | a-node3 | internal | enabled | up    | 2016-08-24T02:27:41.000000 |
 |  3 | nova-consoleauth | a-node3 | internal | enabled | up    | 2016-08-24T02:27:41.000000 |
